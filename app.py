@@ -2,9 +2,9 @@ import pickle
 import nltk
 import string
 import streamlit as st
-nltk.download('stopwords',download_dir='nltk_data')
-nltk.download('punkt',download_dir='nltk_data')
-nltk.download('punkt_tab',download_dir='nltk_data')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
